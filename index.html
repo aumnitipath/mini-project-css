@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+  <body>
+    <!-- Section 1: ส่วนหัวของเว็บไซต์ -->
+    <section>
+      <!-- คนที่ได้รับมอบหมายให้ทำ Section 1 สามารถเขียนโค้ดภายใต้ <section> ได้เลย -->
+      <!-- Header -->
+      <div
+        class="h-[100%] w-[100%] font-['Rubik'] pb-10 md:bg-gradient-to-r from-[#FFFBF4] to-[#F7FCF9] max-[640px]:bg-gradient-to-t from-[#FFFBF4] to-[#F7FCF9]">
+        <header
+          class="flex justify-between items-center md:p-8 max-[640px]:py-2 px-1">
+          <div class="flex gap-20 justify-around items-center">
+            <img
+              src="image-header/Group 5888.png"
+              alt="Logo"
+              class="h-18 w-32 max-[640px]:scale-50 md:scale-100"/>
+
+            <!-- Text Container for Desktop Version-->
+            <div class="md:flex gap-10 max-[640px]:hidden sm:hidden">
+              <div class="relative">
+                <a href="#" class="font text-lg font-normal text-[#111116]">Home</a>
+
+                <!-- Line Element -->
+                <div class="w-[24px] h-[1.4px] bg-[#FFBE48] absolute left-[12px]"></div>
+              </div>
+              <a href="#" class="text-lg font-normal text-[#111116]">Admission</a>
+              <a href="#" class="text-lg font-normal text-[#111116]">Academic</a>
+            </div>
+          </div>
+          <button
+            class="text-base font-medium py-5 px-8 rounded-2xl text-white bg-[#111116] shadow-[inset_0px_-10px_20px_#585867] max-[640px]:hidden transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300">
+            Contact Now
+          </button>
+
+          <!-- Menu icon for Mobile Version-->
+          <img
+            src="image-header/Category.png"
+            alt="menu-icon"
+            class="md:hidden sm:hidden max-[640px]:w-[24px] max-[640px]:h-[24px] max-[640px]:flex max-[640px]:justify-end max-[640px]:mr-6"/>
+        </header>
+
+        <!-- Container left+right-->
+        <div class="flex flex-wrap justify-around items-center gap-10 max-[640px]:flex-col-reverse max-[640px]:items-center sm:flex-col-reverse md:flex-row">
+
+          <!-- Left Content -->
+          <div class="flex-col max-[640px]:px-10">
+            <h1 class="font-['Poppins'] text-7xl font-extrabold mb-6 max-[640px]:text-4xl hover:bg-gradient-to-r from-[#111116] to-gray-500 hover:bg-clip-text hover:text-transparent">
+              Start Your <br />
+              Future <br />
+              Education
+            </h1>
+
+            <p class="text-lg font-normal text-[#6F6F76] mb-6 [640px]:text-base">
+              Credibly redefine distinctive total linkage vis-a-vis multifunc
+              <br />
+              data. Phosfluorescently impact goal-oriented strategic
+            </p>
+
+            <button
+              class="text-base font-medium py-5 px-10 rounded-2xl text-white bg-[#FFA502] shadow-lg shadow-[#FFA502]/30 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#FFA502] duration-300">
+              Discover More
+            </button>
+          </div>
+
+          <!-- Right Content -->
+          <div class="h-[800px] relative max-[640px]:h-[300px]">
+            <div class="h-[674px] w-[674px] rounded-full bg-gradient-to-b from-[#FFF1DB] to-[#FAFCF7] hover:animate-pulse max-[640px]:h-[295px] max-[640px]:w-[295px]"></div>
+            <!-- max-[640px]:scale-50 sm:scale-50 md:scale-100 -->
+
+            <!-- Decoration Line -->
+            <img
+              src="image-header/Group 5893.png"
+              alt="decoration-vector"
+              class="w-[776px] h-[200px] absolute bottom-[250px] left-[0px] max-[640px]:w-[340px] max-[640px]:h-[86px] max-[640px]:bottom-[65px] transition-opacity ease-out duration-700 opacity-100 hover:opacity-0"/>
+
+            <!-- Mail Box -1: Congratulation -->
+            <div class="w-fit h-fit rounded-[20px] px-6 py-8 bg-white relative drop-shadow-xl absolute top-[-500px] left-[-100px] cursor-pointer max-[640px]:scale-50 sm:scale-50 md:scale-100 max-[640px]:top-[-260px] max-[640px]:left-[-75px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300">
+              <!-- icon mail box -->
+              <div class="w-12 h-12 rounded-full bg-[#6B47FC] shadow-lg shadow-[#6B47FC]/50 flex justify-center items-center absolute top-[-25px] left-[65px] hover:animate-ping">
+                <img src="image-header/Group.png" alt="mail-icon" class="w-6" />
+              </div>
+
+              <h3 class="font-['Poppins'] text-base font-medium text-[#111116] text-center">Congratulation!</h3>
+              <p class="text-base font-normal text-[#6F6F76] text-center">You got new email</p>
+            </div>
+
+            <!-- Mail Box -2: 40k+  -->
+            <div class="w-fit h-fit rounded-[20px] px-5 py-[60px] bg-white drop-shadow-xl relative flex-col justify-between items-center absolute top-[-700px] left-[550px] cursor-pointer max-[640px]:scale-50 sm:scale-50 md:scale-100 max-[640px]:top-[-420px] max-[640px]:left-[200px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300">
+              <!-- icon heart -->
+              <div class="w-12 h-12 rounded-full bg-[#51C8FF] shadow-lg shadow-[#51C8FF]/50 flex justify-center items-center absolute top-[-25px] left-[55px] hover:animate-ping">
+                <img
+                  src="image-header/Vector.png"
+                  alt="mail-icon"
+                  class="w-6"/>
+              </div>
+
+              <h3 class="font-['Poppins'] text-2xl font-bold text-black text-center">40k +</h3>
+              <p class="text-base font-normal text-[#6F6F76] text-center">Happy Students</p>
+              <div class="relative left-3 max-[640px]:left-1">
+                <div class="h-11 w-11 rounded-full bg-[#C4C4C4] ring-1 ring-white absolute right-0 z-30"></div>
+                <div class="h-11 w-11 rounded-full bg-[#C4C4C4] ring-1 ring-white absolute right-[30px] z-20"></div>
+                <div class="h-11 w-11 rounded-full bg-[#C4C4C4] ring-1 ring-white absolute right-[60px] z-10"></div>
+                <div class="h-11 w-11 rounded-full bg-[#C4C4C4] ring-1 ring-white absolute right-[90px] z-0"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: ส่วนที่ 2 ของเว็บไซต์ -->
+    <section>
+      <div class="w-[100%] p-10 my-10 flex flex-col justify-evenly items-center max-[640px]:mt-10">
+        <h1 class="text-black text-[40px] text-center font-['Poppins'] font-bold">Trusted Companies</h1>
+        <div class=" w-[80%] p-10 flex flex-row justify-between items-center max-[640px]:flex-col max-[640px]:justify-evenly">
+          <img src="SVG/Martoni 1.svg" />
+          <img src="SVG/Real Estate 1.svg" />
+          <img
+            src="SVG/promedia 1.svg"
+            class="bg-white rounded-xl drop-shadow-xl"/>
+          <img src="SVG/Studio 1.svg" />
+          <img src="SVG/Maxdino 1.svg" />
+        </div>
+      </div>
+    </section>
+    <!-- Section 3: ส่วนที่ 3 ของเว็บไซต์ -->
+    <section>
+      <div class="w-[100%] p-10 flex flex-row justify-evenly items-center max-[640px]:flex-col max-[640px]:justify-start max-[640px]:p-0 max-[640px]:mb-20">
+        <div class="flex justify-center items-center">
+          <div class="w-[668.06px] h-[632px] max-[640px]:scale-[0.65]">
+            <div class="h-[574px] w-[574px] my-5 relative max-[640px]:my-0">
+              <div class="h-[574px] w-[574px] absolute rounded-full bg-[#D4EFF6]"></div>
+              <div class="h-[453px] w-[453px] absolute -top-11 -right-1/4 rounded-full bg-[#FEE095]"></div>
+              <div class="h-[120px] w-[120px] absolute -right-12 bottom-1/4 rounded-full bg-white drop-shadow-lg flex justify-center items-center">
+                <img src="SVG/carbon_play-filled-alt.svg">
+              </div>    
+            </div>
+          </div>
+        </div>
+        <div class="flex-col">
+          <div class="text-black text-4xl py-2 font-bold font-['Poppins']">
+            We Help to Create <br />
+            Possibility & Success <br />
+            in Your Career!
+          </div>
+          <div class="text-[#6F6F76] py-2 text-lg font-['Rubik']">
+            Continually administrate process-centric human<br />
+            capital rather than bleeding-edge methodologies.<br />
+            Distinctively supply accurate methods of<br />
+            empowerment before.
+          </div>
+          <div class="py-4">
+            <button class="w-[205px] h-[64px] bg-[#FFA502] text-[16px] text-white font-medium rounded-lg shadow-lg shadow-[#FFA502]/50">Get Started Today</button>
+          </div>
+        </div>
+      </div>     
+    </section>
+    <!-- Section 4: ส่วนที่ 4 ของเว็บไซต์ -->
+    <section id="blog">
+      <!-- คนที่ได้รับมอบหมายให้ทำ Section 4 สามารถเขียนโค้ดภายใต้ <section> ได้เลย -->
+      <!-- container -->
+      <div class="w-full md:h-[97px] h-[0px]"></div>
+      <div class="w-full bg-white">
+        <!-- flexcontainer -->
+        <div
+          class="md:w-[89.5%] w-full h-[83%] m-auto flex flex-col justify-center items-center bg-[#FFFBF4]"
+        >
+          <div class="flex justify-center items-center text-center">
+            <h1
+              class="leading-[58px] font-bold text-[40px] pb-[70px] mt-[120px] text-[#111116] font-['Poppins']"
+            >
+              We Have Most of <br />
+              Popular Departments
+            </h1>
+          </div>
+
+          <div class="flex flex-wrap justify-center items-center gap-[31px]">
+            <div
+              class="md:w-[453px] p-[30px] w-[355px] bg-white rounded-[20px]"
+            >
+              <div class="bg-[#C4C4C4] w-full h-[280px] rounded-t-[20px]"></div>
+              <div class=" ">
+                <h2
+                  class="font-bold leading-[34px] pt-[24px] text-[#3B3B3B] text-[24px] font-['Poppins']"
+                >
+                  Artificial Intelligence
+                </h2>
+                <p
+                  class="text-[18px] leading-[32px] text-[#6F6F76] pt-[10px] pb-[20px] font-['Rubik']"
+                >
+                  Assertively parallel task synergistic <br />deliverables after
+                  high-quality.
+                </p>
+                <div class="flex gap-x-[16px]">
+                  <p class="text-[#FFA502] font-medium font-['Rubik']">
+                    Learn More
+                  </p>
+                  <p class="">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.49958 12C1.49958 11.8011 1.57859 11.6103 1.71924 11.4696C1.8599 11.329 2.05066 11.25 2.24958 11.25H19.9391L15.2186 6.53097C15.1488 6.46124 15.0935 6.37846 15.0558 6.28735C15.0181 6.19624 14.9986 6.09859 14.9986 5.99997C14.9986 5.90135 15.0181 5.8037 15.0558 5.7126C15.0935 5.62149 15.1488 5.5387 15.2186 5.46897C15.2883 5.39924 15.3711 5.34392 15.4622 5.30619C15.5533 5.26845 15.651 5.24902 15.7496 5.24902C15.8482 5.24902 15.9458 5.26845 16.037 5.30619C16.1281 5.34392 16.2108 5.39924 16.2806 5.46897L22.2806 11.469C22.3504 11.5386 22.4058 11.6214 22.4436 11.7125C22.4815 11.8036 22.5009 11.9013 22.5009 12C22.5009 12.0986 22.4815 12.1963 22.4436 12.2874C22.4058 12.3785 22.3504 12.4613 22.2806 12.531L16.2806 18.531C16.2108 18.6007 16.1281 18.656 16.037 18.6938C15.9458 18.7315 15.8482 18.7509 15.7496 18.7509C15.651 18.7509 15.5533 18.7315 15.4622 18.6938C15.3711 18.656 15.2883 18.6007 15.2186 18.531C15.1488 18.4612 15.0935 18.3785 15.0558 18.2873C15.0181 18.1962 14.9986 18.0986 14.9986 18C14.9986 17.9014 15.0181 17.8037 15.0558 17.7126C15.0935 17.6215 15.1488 17.5387 15.2186 17.469L19.9391 12.75H2.24958C2.05066 12.75 1.8599 12.671 1.71924 12.5303C1.57859 12.3896 1.49958 12.1989 1.49958 12Z"
+                        fill="#FFA502"
+                      />
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="md:w-[453px] p-[30px] w-[355px] bg-white rounded-[20px]"
+            >
+              <div class="bg-[#C4C4C4] w-full h-[280px] rounded-t-[20px]"></div>
+              <div class=" ">
+                <h2
+                  class="font-bold leading-[34px] pt-[24px] text-[#3B3B3B] text-[24px] font-['Poppins']"
+                >
+                  Civil Engineering
+                </h2>
+                <p
+                  class="text-[18px] leading-[32px] text-[#6F6F76] pt-[10px] pb-[20px] font-['Rubik']"
+                >
+                  Assertively parallel task synergistic <br />deliverables after
+                  high-quality.
+                </p>
+                <div class="flex gap-x-[16px]">
+                  <p class="text-[#FFA502] font-medium font-['Rubik']">
+                    Learn More
+                  </p>
+                  <p class="">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.49958 12C1.49958 11.8011 1.57859 11.6103 1.71924 11.4696C1.8599 11.329 2.05066 11.25 2.24958 11.25H19.9391L15.2186 6.53097C15.1488 6.46124 15.0935 6.37846 15.0558 6.28735C15.0181 6.19624 14.9986 6.09859 14.9986 5.99997C14.9986 5.90135 15.0181 5.8037 15.0558 5.7126C15.0935 5.62149 15.1488 5.5387 15.2186 5.46897C15.2883 5.39924 15.3711 5.34392 15.4622 5.30619C15.5533 5.26845 15.651 5.24902 15.7496 5.24902C15.8482 5.24902 15.9458 5.26845 16.037 5.30619C16.1281 5.34392 16.2108 5.39924 16.2806 5.46897L22.2806 11.469C22.3504 11.5386 22.4058 11.6214 22.4436 11.7125C22.4815 11.8036 22.5009 11.9013 22.5009 12C22.5009 12.0986 22.4815 12.1963 22.4436 12.2874C22.4058 12.3785 22.3504 12.4613 22.2806 12.531L16.2806 18.531C16.2108 18.6007 16.1281 18.656 16.037 18.6938C15.9458 18.7315 15.8482 18.7509 15.7496 18.7509C15.651 18.7509 15.5533 18.7315 15.4622 18.6938C15.3711 18.656 15.2883 18.6007 15.2186 18.531C15.1488 18.4612 15.0935 18.3785 15.0558 18.2873C15.0181 18.1962 14.9986 18.0986 14.9986 18C14.9986 17.9014 15.0181 17.8037 15.0558 17.7126C15.0935 17.6215 15.1488 17.5387 15.2186 17.469L19.9391 12.75H2.24958C2.05066 12.75 1.8599 12.671 1.71924 12.5303C1.57859 12.3896 1.49958 12.1989 1.49958 12Z"
+                        fill="#FFA502"
+                      />
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="md:w-[453px] p-[30px] w-[355px] bg-white rounded-[20px]"
+            >
+              <div class="bg-[#C4C4C4] w-full h-[280px] rounded-t-[20px]"></div>
+              <div class=" ">
+                <h2
+                  class="font-bold leading-[34px] pt-[24px] text-[#3B3B3B] text-[24px] font-['Poppins']"
+                >
+                  Business Studies
+                </h2>
+                <p
+                  class="text-[18px] leading-[32px] text-[#6F6F76] pt-[10px] pb-[20px] font-['Rubik']"
+                >
+                  Assertively parallel task synergistic <br />deliverables after
+                  high-quality.
+                </p>
+                <div class="flex gap-x-[16px]">
+                  <p class="text-[#FFA502] font-medium font-['Rubik']">
+                    Learn More
+                  </p>
+                  <p class="">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.49958 12C1.49958 11.8011 1.57859 11.6103 1.71924 11.4696C1.8599 11.329 2.05066 11.25 2.24958 11.25H19.9391L15.2186 6.53097C15.1488 6.46124 15.0935 6.37846 15.0558 6.28735C15.0181 6.19624 14.9986 6.09859 14.9986 5.99997C14.9986 5.90135 15.0181 5.8037 15.0558 5.7126C15.0935 5.62149 15.1488 5.5387 15.2186 5.46897C15.2883 5.39924 15.3711 5.34392 15.4622 5.30619C15.5533 5.26845 15.651 5.24902 15.7496 5.24902C15.8482 5.24902 15.9458 5.26845 16.037 5.30619C16.1281 5.34392 16.2108 5.39924 16.2806 5.46897L22.2806 11.469C22.3504 11.5386 22.4058 11.6214 22.4436 11.7125C22.4815 11.8036 22.5009 11.9013 22.5009 12C22.5009 12.0986 22.4815 12.1963 22.4436 12.2874C22.4058 12.3785 22.3504 12.4613 22.2806 12.531L16.2806 18.531C16.2108 18.6007 16.1281 18.656 16.037 18.6938C15.9458 18.7315 15.8482 18.7509 15.7496 18.7509C15.651 18.7509 15.5533 18.7315 15.4622 18.6938C15.3711 18.656 15.2883 18.6007 15.2186 18.531C15.1488 18.4612 15.0935 18.3785 15.0558 18.2873C15.0181 18.1962 14.9986 18.0986 14.9986 18C14.9986 17.9014 15.0181 17.8037 15.0558 17.7126C15.0935 17.6215 15.1488 17.5387 15.2186 17.469L19.9391 12.75H2.24958C2.05066 12.75 1.8599 12.671 1.71924 12.5303C1.57859 12.3896 1.49958 12.1989 1.49958 12Z"
+                        fill="#FFA502"
+                      />
+                    </svg>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button
+
+              class="w-[218px] h-[64px] bg-[#FFA502] text-[#FFFFFF] leading-[26px] mt-[20px] rounded-[15px] font-['Rubik']"
+
+            >
+              View All Department
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 5: ส่วนที่ 5 ของเว็บไซต์ -->
+    <section id="teacher">
+
+
+      <div class="w-full h-full flex flex-row justify-center items-center ">
+  
+            <!-- กล่องของ content ทั้งหมด  -->
+            <div class="w-[74%] h-[83%] bg-white flex flex-col justify-between items-center mt-20 mb-20">
+  
+              <!-- กล่องของ Title และปุ่มดูรายชื่อครูทั้งหมด -->
+              <div class="w-full h-full flex flex-wrap flex-row justify-between items-start mb-48">
+  
+                <div class="sm:w-[369px] sm:h-[116px] w-[222px] h-[68px] font-bold font-['Poppins'] text-[24px] sm:text-[36px] "><h1>Introduce with Our</h1>
+                  <h1>Famous Teacher</h1>
+                </div>
+  
+                <!-- ปุ่มดูรายชื่อ Teacher ทั้งหมด -->
+                <button class="bg-[#FFA502] w-[193px] h-[64px] text-white text-[16px] font-bold py-3 px-6 rounded-lg mt-20 sm:mt-10">
+                  <h3>View All Teachers</h3> 
+                </button>
+  
+              </div>
+  
+              <!-- กล่องของวงกลมสีและชื่อครูด้านล่าง -->
+                <div class="w-full h-[66%] flex flex-wrap sm:flex-row sm:justify-center sm:items-center gap-40 sm:gap-2"> 
+  
+                    <!-- กล่องใส่วงกลมสี 1 -->
+                    <div class="w-[369px] h-full flex flex-col justify-between items-center">
+                          <div class="sm:w-[355px] sm:h-[355px] w-[330px] h-[330px] bg-[#D9D1FB] rounded-full mb-10"></div>
+                       
+                          <!-- กล่องย่อยใส่ห้วข้อด้านล่างวงกลม 1 -->
+                          <div class="w-full h-[110px] flex flex-col justify-end items-center space-y-5">                    
+                                
+                              <div class="space-y-2 text-center">
+                                <div class="font-bold font-['Poppins'] text-[28px]"><h2>Shaapir Prio</h2></div>
+                                <div class="text-[18px] font-['Rubik']"><h3>Assistant Director</h3></div>
+                              </div>
+  
+                              <div>
+                                <div class=""><img src="./teacher-image/group-5921.png" alt="social icon"></div> 
+                              </div>
+                          </div>
+  
+                    </div>
+  
+                    <!-- กล่องใส่วงกลมสี 2-->
+                    <div class="w-[369px] h-full flex flex-col justify-between items-center ">
+                      <div class="sm:w-[355px] sm:h-[355px] w-[330px] h-[330px] bg-[#9BF5CB] rounded-full mb-10"></div>
+                          <!-- กล่องย่อยใส่ห้วข้อด้านล่างวงกลม 2 -->
+                          <div class="w-full h-[110px] flex flex-col justify-end items-center space-y-5">
+                  
+                            <div class="space-y-2 text-center">
+                                <div class="font-bold font-['Poppins'] text-[28px]"><h2>Sellina</h2></div>
+                                <div class="text-[18px] font-['Rubik']"><h3>Director</h3></div>
+                              </div>
+  
+                              <div>
+                                <div class=""><img src="./teacher-image/group-5921.png" alt="social icon"></div>
+                              </div>
+                          </div>
+  
+                    </div>
+  
+                    <!-- กล่องใส่วงกลมสี 3 -->
+                    <div class="w-[369px] h-full flex flex-col justify-between items-center">
+                      <div class="sm:w-[355px] sm:h-[355px] w-[330px] h-[330px] bg-[#FEC6A2] rounded-full mb-10"></div>
+                          <!-- กล่องย่อยใส่ห้วข้อด้านล่างวงกลม 3 -->
+                          <div class="w-full h-[110px] flex flex-col justify-end items-center space-y-5">
+                              
+                              <div class="space-y-2 text-center">
+                                <div class="font-bold font-['Poppins'] text-[28px]"><h2>John Smith</h2></div>
+                                <div class="text-[18px] font-['Rubik']"><h3>Assistant Director</h3></div>
+                              </div>
+  
+                              <div>
+                                <div class=""><img src="./teacher-image/group-5921.png" alt="social icon"></div>
+                              </div>
+                            
+                              
+                               
+                          </div>
+  
+                    </div>
+  
+                
+  
+  
+              </div>
+  
+      </div>
+  
+    
+    </section>
+    <!-- Section 6: ส่วนที่ 6 ของเว็บไซต์ -->
+
+    <section class="w-full flex justify-center items-center text-['rubik'] font-[400] max-[640px]:mt-[300px]">
+      <!-- คนที่ได้รับมอบหมายให้ทำ Section 6 สามารถเขียนโค้ดภายใต้ <section> ได้เลย -->
+
+      <div class="w-[74%] h-[635px] relative flex top-[135px]">
+          <div>
+            <div class="relative w-[695px] h-[344px] bg-[#FFA502] rounded-[18px] flex flex-col ml-[100px] mt-[30px] justify-center items-center z-10 max-[640px]:w-[60%] max-[640px]:h-[100%] max-[640px]:right-[70px]"> 
+              <div class="flex flex-col justify-center items-center w-[598px] h-[87px]">
+                <div class="flex flex-row justify-between items-center w-[598px] h-[87px] max-[640px]:flex-col max-[640px]:pt-[10px]">
+                  <div class="w-[263px] h-[87px] flex flex-row justify-start items-center">
+                    <div class="w-[87px] h-[87px] bg-[#C4C4C4] rounded-full max-[640px]:w-[87px] max-[640px]:h-[87px]"></div>
+                    <div class="pl-[20px] text-white ">
+                      <p class="font-bold text-2xl text-['poppins']"> Jaquon Hart </p>
+                      <p class="font-normal text-[19px]"> Civil Engineer </p>
+                    </div>
+
+                  </div>
+                  <img class="w-[143px] h-[21px]" src="/icons/star.png">
+                </div>
+
+                <p class="w-[598px] h-[144px] font-normal text-[24px] px-[10px] mt-[50px] text-white max-[640px]:w-[50%] max-[640px]:pb-[250px]">“With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”</p>
+
+              </div>
+          
+            </div>
+
+            <div class="w-[675px] h-[350px] rounded-[8px] shadow-xl shadow-[rgba(0,0,0,0.05)] flex flex-col justify-center items-start pl-[10px] absolute bottom-[150px] left-[2px] pt-[100px] z-0 max-[640px]:w-[100%] max-[640px]:h-[100%] max-[640px]:top-[150px] max-[640px]:left-[35px]"> 
+
+              <div class="w-[87px] h-[87px] bg-[#C4C4C4] rounded-full mb-[15px] ml-[18px] max-[640px]:w-[87px] max-[640px]:h-[87px]"></div>
+              <p class="text-[#6f6f76] w-[595px] h-[144px] text-[24px] pr-[10px] pl-[10px] max-[640px]:w-[100%] max-[640px]:h-[30%] max-[640px]:pb-[1px]">“With Edu, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”</p>
+
+            </div>
+          </div>
+            <div class="flex flex-row absolute bottom-[200px] left-[660px] max-[640px]:top-[710px] max-[640px]:left-[315px]"> 
+              <div class="w-[36px] h-[36px] border border-black rounded-full flex justify-center items-center bg-white">
+                <button class="text-[26px]"> ￩ </button>
+              </div>
+              <div class="w-[36px] h-[36px] border border-none full flex justify-center items-center bg-[#111116] rounded-full bg-gradient-to-b from-black to-[#585867] ml-[10px]">
+                <button class="text-[26px] text-white"> ￫ </button>
+              </div>
+            </div>
+         
+          <div>
+
+      </div> 
+
+      <div class="w-full flex justify-center items-center text-['rubik'] font-[400] ">
+        <div class="w-[453px] h-[312px] flex flex-col relative left-[50px] bottom-[80px] mt-[10px] max-[640px]:w-[85%] max-[640px]:h-[35%] max-[640px]:bottom-[400px] max-[640px]:mr-[1400px] ">
+            <p class="font-bold text-[40px] w-[453px] h-[174px] text-[#111116] pr-[50px] text-['poppins'] max-[640px]:text-[24px] max-[640px]:w-[400px] max-[640px]:h-[30%] max-[640px]:mt-0"> 5000 Reviews from Our Successful Students! </p>
+            <p class="w-[453px] h-[108px] text-normal text-[#6f6f76] text-[18px] p-[5px] mt-[20px] max-[640px]:h-[50%] max-[640px]:w-[350px] max-[640px]:mt-[25px]"> Teractively recaptiualize intermandated e-commerce after sticky applications. Dynamically reintermediate viral testing procedures through technically sound. </p>
+        </div>
+    </div>
+
+
+
+      </div>
+    </section>
+    <!-- Section 7: ส่วนที่ 7 ของเว็บไซต์ -->
+
+      <section class="w-full flex justify-end items-end text-['rubik'] font-[400] max-[640px]:mt-[250px] max-[640px]:ml-[70px]">
+      <!-- คนที่ได้รับมอบหมายให้ทำ Section 7 สามารถเขียนโค้ดภายใต้ <section> ได้เลย -->
+          <div class="w-full bg-[#2a2a31] flex items-center justify-start mt-[170px] py-[30px]">
+            <div class=" rounded-[15px] flex flex-row max-[640px]:flex-col justify-around items-center ml-[150px] relative max-[640px]:ml-[10px]">
+              <p class="w-[50%] px-[5px] py-[10px] mr-[10px] text-[40px] font-bold text-white text-['poppins'] max-[640px]:w-[100%] max-[640px]:text-[24px] max-[640px]:px-[10px]"> Create Free Account & Get Register </p>
+              <img class="absolute left-[385px] bottom-[12px] max-[640px]:-rotate-90 max-[640px]:pb-[80px] max-[640px]:left-[240px] max-[640px]:h-[65%] " src = "/icons/footer-arrow.png">
+              
+              <button class="px-[30px] py-[25px] bg-[#ffa502] rounded-[15px] text-[16px] font-medium text-white max-[640px]:px-[20px] max-[640px]:py-[15px] max-[640px]:mr-[130px] max-[640px]:mt-[20px]"> Register Now </button>
+
+            </div>
+          </div>
+
+    </section>
+    
+    <section class="w-full bg-[#111116] flex items-center flex-col text-['rubik'] font-[400] pt-[80px] max-[640px]:ml-[70px]">
+      
+
+        <div class="w-[85%] text-white flex flex-row justify-center ml-[150px]">
+
+          <div class="flex flex-row justify-between max-[640px]:flex-col text-[16px] ml-[-70px]">
+
+            <div class="w-[300px] mr-[80px] ">
+              <div>
+                <div class="text-[#b2b2b2]">
+                  <img class="mb-[10px]" src="/icons/footer-Eu..png">
+                  <p class="mb-[50px]"> Professionally scale cross functional human capital and extensive technology. </p>
+                </div>
+                <img class="" src="/icons/footer-social-icon.png">
+
+              </div>
+              <img class="" src="/icons/footer-social-icon.png" />
+            </div>
+
+            
+            <div class="w-[165px] text-[#b2b2b2] mr-[80px]">
+              <p class="text-['poppins'] font-[700] mb-[20px] text-white"> Services </p>
+              <p class=" mb-[20px]"> Documentation </p>
+              <p class=" mb-[20px]"> Design </p>
+              <p class=" mb-[20px]"> Themes </p>
+              <p class=" mb-[20px]"> Illustrations </p>
+            </div>
+
+            <div class="w-[165px] text-[#b2b2b2] mr-[80px]">
+              <p class="text-['poppins'] font-[700] mb-[20px] text-white"> Company </p>
+              <p class=" mb-[20px]"> About </p>
+              <p class=" mb-[20px]"> Terms </p>
+              <p class=" mb-[20px]"> Privacy Policy </p>
+              <p class=" mb-[20px]"> Careers </p>
+            </div>
+
+            <div class="w-[165px] text-[#b2b2b2] mr-[80px]">
+              <p class="text-['poppins'] font-[700] mb-[20px] text-white"> Job Info </p>
+              <p class=" mb-[20px]"> Select </p>
+              <p class=" mb-[20px]"> Services </p>
+              <p class=" mb-[20px]"> Payment </p>
+            </div>
+
+            <div class="w-[242px] text-[#b2b2b2] mr-[80px]">
+              <p class="text-['poppins'] font-[700] mb-[20px] text-white"> Contact </p>
+              <p class=" mb-[20px]"> <span class="text-white"> Call </span> : 971 5546 963 </p>
+              <p class=" mb-[20px]"> <span class="text-white"> Email </span> : example@gmail.com </p>
+              <p class=" mb-[20px]"> <span class="text-white"> Address </span> : Dhaka, Bangladesh </p>
+            </div>
+
+          <div class="w-[165px] text-[#b2b2b2]">
+            <p class="text-['poppins'] font-[700] mb-[20px] text-white">
+              Job Info
+            </p>
+            <p class="mb-[20px]">Select</p>
+            <p class="mb-[20px]">Services</p>
+            <p class="mb-[20px]">Payment</p>
+          </div>
+
+          <div class="w-[242px] text-[#b2b2b2]">
+            <p class="text-['poppins'] font-[700] mb-[20px] text-white">
+              Contact
+            </p>
+            <p class="mb-[20px]">
+              <span class="text-white"> Call </span> : 971 5546 963
+            </p>
+            <p class="mb-[20px]">
+              <span class="text-white"> Email </span> : example@gmail.com
+            </p>
+            <p class="mb-[20px]">
+              <span class="text-white"> Address </span> : Dhaka, Bangladesh
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="w-[1600px] h-[1px] bg-white opacity-20"></div>
+
+        <p class="text-white w-[332px] h-[90px] flex items-center"> Copyright©chakri.All right reserved </p>
+
+    </section>
+  </body>
+</html>
